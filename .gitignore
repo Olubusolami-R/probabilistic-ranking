@@ -1,0 +1,6 @@
+.idea/
+.venv/
+*.mat
+.ipynb_checkpoints/
+plot/
+*.png
