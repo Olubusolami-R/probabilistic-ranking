@@ -34,7 +34,7 @@ samples from 2,000 iterations. Reliable inference requires ~30,200 iterations.
 correlation 0.9992).
 
 **Skill vs match outcome:** Djokovic's 99% skill advantage over Murray translates to 
-only 74% match win probability — match-level noise (ε ~ N(0,1)) causes outcome 
+only 74% match win probability as match-level noise (ε ~ N(0,1)) causes outcome 
 probabilities to regress towards 0.5.
 
 **Rankings:** MCMC and EP agree perfectly on top-10 rankings. Both differ from empirical 
@@ -47,7 +47,7 @@ jupyter notebook ranking.ipynb
 ```
 
 ## Data
-
 2011 ATP season: 107 players, 1,801 matches. Data file `tennis_data.mat` is not included in this repo.
+
 ---
 *4F13 Probabilistic Machine Learning, Cambridge MPhil*
