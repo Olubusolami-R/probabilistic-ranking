@@ -31,13 +31,10 @@ def MH_sample(games, num_players, num_its):
 
             # current local log-prob
             lp1 = norm.logpdf(w[i]) + np.sum(norm.logcdf(outcome*(w[i]-w[j])))
-
             # proposed new skill and log-prob
-            # TODO
             w_prop_i = w[i] + np.random.normal(0, 0.8)
             lp2 = norm.logpdf(w_prop_i) + np.sum(norm.logcdf(outcome * (w_prop_i - w[j])))
             # accept or reject move:
-            # TODO
             if np.log(np.random.rand()) < (lp2 - lp1):
                 w[i] = w_prop_i
                 accepted_moves += 1
