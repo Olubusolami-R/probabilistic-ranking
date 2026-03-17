@@ -1,8 +1,7 @@
 # Probabilistic Ranking of ATP Tennis Players
 
 Bayesian inference for ranking tennis players from match outcomes. I implemented and 
-compared two inference approaches — Metropolis-Hastings MCMC and Expectation Propagation 
-— on 2011 ATP season data (107 players, 1,801 matches).
+compared two inference approaches (Metropolis-Hastings MCMC and Expectation Propagation) on 2011 ATP season data (107 players, 1,801 matches).
 
 ## Repository Structure
 
